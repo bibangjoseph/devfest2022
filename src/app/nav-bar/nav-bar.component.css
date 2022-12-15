@@ -1,0 +1,17 @@
+.col-4 {
+    border: .5px solid gainsboro;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.active {
+    background-color: rgb(219, 233, 246);
+}
+
+.col-4:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20vh;
+}

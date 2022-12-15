@@ -1,0 +1,13 @@
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col-4" routerLink="/" [ngClass]="{'active': url === '/'}">
+            Accueil
+        </div>
+        <div class="col-4" routerLink="/contact" [ngClass]="{'active': url === '/contact'}">
+            Contact
+        </div>
+        <div class="col-4" routerLink="/movies" [ngClass]="{'active': url === '/movies'}">
+            Films
+        </div>
+    </div>
+</div>
